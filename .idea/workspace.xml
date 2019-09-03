@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40d7af44-3837-4b84-aea9-d046742b8b79" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/JDb/concurrent/CountDownLatchDemo.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/JDb/concurrent/CyclicBarrierDemo.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/JDb/concurrent/ExchangerDemo.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/JDb/concurrent/SemaphoreDemo.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Java.iml" afterPath="$PROJECT_DIR$/Java.iml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/JDb/compute/LeetCode.java" afterPath="$PROJECT_DIR$/src/main/java/com/JDb/compute/LeetCode.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,18 +20,52 @@
       <file leaf-file-name="CountDownLatchDemo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/JDb/concurrent/CountDownLatchDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="53" selection-end-column="1" />
+            <state relative-caret-position="546">
+              <caret line="27" column="40" lean-forward="false" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CyclicBarrierDemo.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CyclicBarrierDemo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/JDb/concurrent/CyclicBarrierDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="421">
-              <caret line="21" column="25" lean-forward="true" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+            <state relative-caret-position="546">
+              <caret line="26" column="56" lean-forward="false" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="56" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SemaphoreDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/JDb/concurrent/SemaphoreDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="521">
+              <caret line="58" column="23" lean-forward="false" selection-start-line="58" selection-start-column="23" selection-end-line="58" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExchangerDemo.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/JDb/concurrent/ExchangerDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Thread.java" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/java/jdk1.8.0_112/src.zip!/java/lang/Thread.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="212">
+              <caret line="1811" column="17" lean-forward="false" selection-start-line="1811" selection-start-column="17" selection-end-line="1811" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -56,6 +84,9 @@
     <findStrings>
       <find>动态代理</find>
       <find>动态</find>
+      <find>newFixedThreadPool</find>
+      <find>Thread</find>
+      <find>getQueuedThreads</find>
     </findStrings>
     <dirStrings>
       <dir>D:\git\ZJdb\Java\src\main\java\com\JDb\Design</dir>
@@ -83,6 +114,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/JDb/concurrent/countDownLatch.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/JDb/concurrent/CyclicBarrierDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/JDb/concurrent/CountDownLatchDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/JDb/concurrent/SemaphoreDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/JDb/concurrent/ExchangerDemo.java" />
       </list>
     </option>
   </component>
@@ -135,7 +168,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -190,6 +222,16 @@
             </path>
             <path>
               <item name="Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="JDb" type="462c0819:PsiDirectoryNode" />
+              <item name="dynamicProxy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
             <path>
@@ -231,8 +273,9 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -245,7 +288,7 @@
     <property name="project.structure.side.proportion" value="0.36316246" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../wq/tqs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -265,7 +308,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CountDownLatchDemo">
+  <component name="RunManager" selected="Application.ExchangerDemo">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -300,6 +343,44 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.JDb.concurrent.CyclicBarrierDemo" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Java" />
+      <envs />
+    </configuration>
+    <configuration name="ExchangerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.JDb.concurrent.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.JDb.concurrent.ExchangerDemo" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Java" />
+      <envs />
+    </configuration>
+    <configuration name="SemaphoreDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.JDb.concurrent.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.JDb.concurrent.SemaphoreDemo" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -385,14 +466,18 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="2">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Application.CountDownLatchDemo" />
       <item index="1" class="java.lang.String" itemvalue="Application.CyclicBarrierDemo" />
+      <item index="2" class="java.lang.String" itemvalue="Application.SemaphoreDemo" />
+      <item index="3" class="java.lang.String" itemvalue="Application.ExchangerDemo" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Application.CountDownLatchDemo" />
-        <item index="1" class="java.lang.String" itemvalue="Application.CyclicBarrierDemo" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Application.ExchangerDemo" />
+        <item index="1" class="java.lang.String" itemvalue="Application.SemaphoreDemo" />
+        <item index="2" class="java.lang.String" itemvalue="Application.CountDownLatchDemo" />
+        <item index="3" class="java.lang.String" itemvalue="Application.CyclicBarrierDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -417,12 +502,23 @@
       <workItem from="1567047149321" duration="3488000" />
       <workItem from="1567077518572" duration="4149000" />
       <workItem from="1567082653909" duration="570000" />
-      <workItem from="1567128119519" duration="10182000" />
+      <workItem from="1567128119519" duration="11063000" />
+      <workItem from="1567387113549" duration="1674000" />
+      <workItem from="1567490070424" duration="6608000" />
+      <workItem from="1567497510335" duration="2513000" />
     </task>
+    <task id="LOCAL-00001" summary="并发">
+      <created>1567157246904</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1567157246904</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18389000" />
+    <option name="totallyTimeSpent" value="30065000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -439,14 +535,14 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4034091" sideWeight="0.49570817" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31022727" sideWeight="0.49570817" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27045456" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33863637" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.325" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905483" sideWeight="0.49785408" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2746781" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -475,76 +571,19 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="并发" />
+    <option name="LAST_COMMIT_MESSAGE" value="并发" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/JDb/design/simplefactory/Calculation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/JDb/design/builder/ConcreteBuilderB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/JDb/design/state/test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/JDb/design/builder/ConcreteBuilderA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/JDb/design/template/ConcreteClassB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/JDb/design/command/ConcreteCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/JDb/design/command/Invoker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/JDb/design/factory/Leifeng.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/JDb/design/state/Work.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/JDb/design/strategy/ConcreteStrategyA.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -763,13 +802,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/JDb/dynamicProxy/ProxyFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="16" column="30" lean-forward="false" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/JDb/test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
@@ -798,14 +830,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://D:/java/jdk1.8.0_112/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="1341" column="25" lean-forward="true" selection-start-line="1341" selection-start-column="25" selection-end-line="1341" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java/jdk1.8.0_112/src.zip!/java/util/concurrent/CountDownLatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="290" column="18" lean-forward="false" selection-start-line="290" selection-start-column="13" selection-end-line="290" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/JDb/dynamicProxy/ProxyFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="25" column="42" lean-forward="true" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java/jdk1.8.0_112/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="128" column="20" lean-forward="false" selection-start-line="128" selection-start-column="17" selection-end-line="128" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java/jdk1.8.0_112/src.zip!/java/util/concurrent/ConcurrentMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="62" column="30" lean-forward="false" selection-start-line="62" selection-start-column="17" selection-end-line="62" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://D:/java/jdk1.8.0_112/src.zip!/java/util/concurrent/Executors.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="149" column="94" lean-forward="false" selection-start-line="149" selection-start-column="81" selection-end-line="149" selection-end-column="94" />
+        <state relative-caret-position="462">
+          <caret line="149" column="74" lean-forward="false" selection-start-line="149" selection-start-column="74" selection-end-line="149" selection-end-column="74" />
           <folding>
             <element signature="docComment;class#Executors#0" expanded="false" />
             <element signature="docComment;method#newFixedThreadPool#0;class#Executors#0" expanded="false" />
-            <element signature="method#newFixedThreadPool#0;class#Executors#0" expanded="false" />
             <element signature="docComment;method#newWorkStealingPool#0;class#Executors#0" expanded="false" />
             <element signature="method#newWorkStealingPool#0;class#Executors#0" expanded="false" />
             <element signature="docComment;method#newWorkStealingPool#1;class#Executors#0" expanded="false" />
@@ -840,12 +908,8 @@
             <element signature="method#callable#1;class#Executors#0" expanded="false" />
             <element signature="docComment;method#callable#2;class#Executors#0" expanded="false" />
             <element signature="method#callable#2;class#Executors#0" expanded="false" />
-            <element signature="class#18677:18756" expanded="false" />
-            <element signature="method#call#0;class#18677:18756" expanded="false" />
             <element signature="docComment;method#callable#3;class#Executors#0" expanded="false" />
             <element signature="method#callable#3;class#Executors#0" expanded="false" />
-            <element signature="class#19248:19344" expanded="false" />
-            <element signature="method#call#0;class#19248:19344" expanded="false" />
             <element signature="docComment;method#privilegedCallable#0;class#Executors#0" expanded="false" />
             <element signature="method#privilegedCallable#0;class#Executors#0" expanded="false" />
             <element signature="docComment;method#privilegedCallableUsingCurrentClassLoader#0;class#Executors#0" expanded="false" />
@@ -858,16 +922,12 @@
             <element signature="class#PrivilegedCallable#0;class#Executors#0" expanded="false" />
             <element signature="method#PrivilegedCallable#0;class#PrivilegedCallable#0;class#Executors#0" expanded="false" />
             <element signature="method#call#0;class#PrivilegedCallable#0;class#Executors#0" expanded="false" />
-            <element signature="class#22475:22661" expanded="false" />
-            <element signature="method#run#0;class#22475:22661" expanded="false" />
             <element signature="docComment;class#PrivilegedCallableUsingCurrentClassLoader#0;class#Executors#0" expanded="false" />
             <element signature="class#PrivilegedCallableUsingCurrentClassLoader#0;class#Executors#0" expanded="false" />
             <element signature="method#PrivilegedCallableUsingCurrentClassLoader#0;class#PrivilegedCallableUsingCurrentClassLoader#0;class#Executors#0" expanded="false" />
             <element signature="e#23308#23357#0" expanded="false" />
             <element signature="e#23590#23648#0" expanded="false" />
             <element signature="method#call#0;class#PrivilegedCallableUsingCurrentClassLoader#0;class#Executors#0" expanded="false" />
-            <element signature="class#24124:24860" expanded="false" />
-            <element signature="method#run#0;class#24124:24860" expanded="false" />
             <element signature="docComment;class#DefaultThreadFactory#0;class#Executors#0" expanded="false" />
             <element signature="class#DefaultThreadFactory#0;class#Executors#0" expanded="false" />
             <element signature="method#DefaultThreadFactory#0;class#DefaultThreadFactory#0;class#Executors#0" expanded="false" />
@@ -877,10 +937,6 @@
             <element signature="method#PrivilegedThreadFactory#0;class#PrivilegedThreadFactory#0;class#Executors#0" expanded="false" />
             <element signature="e#26539#26588#0" expanded="false" />
             <element signature="method#newThread#0;class#PrivilegedThreadFactory#0;class#Executors#0" expanded="false" />
-            <element signature="class#27159:27576" expanded="false" />
-            <element signature="method#run#0;class#27159:27576" expanded="false" />
-            <element signature="class#27262:27537" expanded="false" />
-            <element signature="method#run#0;class#27262:27537" expanded="false" />
             <element signature="docComment;class#DelegatedExecutorService#0;class#Executors#0" expanded="false" />
             <element signature="class#DelegatedExecutorService#0;class#Executors#0" expanded="false" />
             <element signature="method#DelegatedExecutorService#0;class#DelegatedExecutorService#0;class#Executors#0" expanded="false" />
@@ -907,38 +963,126 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/java/jdk1.8.0_112/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
+    <entry file="jar://D:/java/jdk1.8.0_112/src.zip!/java/util/concurrent/ThreadFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="1341" column="25" lean-forward="true" selection-start-line="1341" selection-start-column="25" selection-end-line="1341" selection-end-column="25" />
-          <folding />
+        <state relative-caret-position="502">
+          <caret line="57" column="17" lean-forward="false" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/java/jdk1.8.0_112/src.zip!/java/util/concurrent/CountDownLatch.java">
+    <entry file="jar://D:/java/jdk1.8.0_112/src.zip!/java/util/concurrent/atomic/AtomicInteger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="290" column="18" lean-forward="false" selection-start-line="290" selection-start-column="13" selection-end-line="290" selection-end-column="26" />
+        <state relative-caret-position="293">
+          <caret line="203" column="34" lean-forward="false" selection-start-line="203" selection-start-column="31" selection-end-line="203" selection-end-column="34" />
           <folding>
-            <element signature="e#9899#9900#0" expanded="false" />
-            <element signature="e#9936#9937#0" expanded="false" />
+            <element signature="e#5214#5215#0" expanded="false" />
+            <element signature="e#5290#5291#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/JDb/concurrent/CountDownLatchDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="53" selection-end-column="1" />
+        <state relative-caret-position="546">
+          <caret line="27" column="40" lean-forward="false" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/JDb/concurrent/CyclicBarrierDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="21" column="25" lean-forward="true" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+        <state relative-caret-position="546">
+          <caret line="26" column="56" lean-forward="false" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="56" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java/jdk1.8.0_112/src.zip!/java/util/concurrent/Semaphore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1365">
+          <caret line="410" column="0" lean-forward="false" selection-start-line="410" selection-start-column="0" selection-end-line="490" selection-end-column="7" />
+          <folding>
+            <element signature="docComment;class#Semaphore#0" expanded="false" />
+            <element signature="docComment;field#sync#0;class#Semaphore#0" expanded="false" />
+            <element signature="docComment;class#Sync#0;class#Semaphore#0" expanded="false" />
+            <element signature="class#Sync#0;class#Semaphore#0" expanded="false" />
+            <element signature="method#nonfairTryAcquireShared#0;class#Sync#0;class#Semaphore#0" expanded="false" />
+            <element signature="method#tryReleaseShared#0;class#Sync#0;class#Semaphore#0" expanded="false" />
+            <element signature="method#reducePermits#0;class#Sync#0;class#Semaphore#0" expanded="false" />
+            <element signature="method#drainPermits#0;class#Sync#0;class#Semaphore#0" expanded="false" />
+            <element signature="docComment;class#NonfairSync#0;class#Semaphore#0" expanded="false" />
+            <element signature="class#NonfairSync#0;class#Semaphore#0" expanded="false" />
+            <element signature="docComment;class#FairSync#0;class#Semaphore#0" expanded="false" />
+            <element signature="class#FairSync#0;class#Semaphore#0" expanded="false" />
+            <element signature="method#tryAcquireShared#0;class#FairSync#0;class#Semaphore#0" expanded="false" />
+            <element signature="docComment;method#Semaphore#0;class#Semaphore#0" expanded="false" />
+            <element signature="docComment;method#Semaphore#1;class#Semaphore#0" expanded="false" />
+            <element signature="docComment;method#acquire#0;class#Semaphore#0" expanded="false" />
+            <element signature="method#acquire#0;class#Semaphore#0" expanded="false" />
+            <element signature="docComment;method#acquireUninterruptibly#0;class#Semaphore#0" expanded="false" />
+            <element signature="e#12004#12005#0" expanded="false" />
+            <element signature="e#12041#12042#0" expanded="false" />
+            <element signature="e#13169#13170#0" expanded="false" />
+            <element signature="e#13228#13229#0" expanded="false" />
+            <element signature="docComment;method#tryAcquire#1;class#Semaphore#0" expanded="false" />
+            <element signature="method#tryAcquire#1;class#Semaphore#0" expanded="false" />
+            <element signature="docComment;method#release#0;class#Semaphore#0" expanded="false" />
+            <element signature="docComment;method#acquire#1;class#Semaphore#0" expanded="false" />
+            <element signature="method#acquire#1;class#Semaphore#0" expanded="false" />
+            <element signature="docComment;method#acquireUninterruptibly#1;class#Semaphore#0" expanded="false" />
+            <element signature="method#acquireUninterruptibly#1;class#Semaphore#0" expanded="false" />
+            <element signature="docComment;method#tryAcquire#2;class#Semaphore#0" expanded="false" />
+            <element signature="method#tryAcquire#2;class#Semaphore#0" expanded="false" />
+            <element signature="docComment;method#tryAcquire#3;class#Semaphore#0" expanded="false" />
+            <element signature="method#tryAcquire#3;class#Semaphore#0" expanded="false" />
+            <element signature="docComment;method#release#1;class#Semaphore#0" expanded="false" />
+            <element signature="method#release#1;class#Semaphore#0" expanded="false" />
+            <element signature="docComment;method#availablePermits#0;class#Semaphore#0" expanded="false" />
+            <element signature="docComment;method#drainPermits#0;class#Semaphore#0" expanded="false" />
+            <element signature="docComment;method#reducePermits#0;class#Semaphore#0" expanded="false" />
+            <element signature="method#reducePermits#0;class#Semaphore#0" expanded="false" />
+            <element signature="docComment;method#isFair#0;class#Semaphore#0" expanded="false" />
+            <element signature="docComment;method#hasQueuedThreads#0;class#Semaphore#0" expanded="false" />
+            <element signature="docComment;method#getQueueLength#0;class#Semaphore#0" expanded="false" />
+            <element signature="docComment;method#getQueuedThreads#0;class#Semaphore#0" expanded="false" />
+            <element signature="docComment;method#toString#0;class#Semaphore#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java/jdk1.8.0_112/src.zip!/java/util/concurrent/Executor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="139" column="9" lean-forward="false" selection-start-line="139" selection-start-column="9" selection-end-line="139" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/JDb/concurrent/SemaphoreDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="521">
+          <caret line="58" column="23" lean-forward="false" selection-start-line="58" selection-start-column="23" selection-end-line="58" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java/jdk1.8.0_112/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="1811" column="17" lean-forward="false" selection-start-line="1811" selection-start-column="17" selection-end-line="1811" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/JDb/concurrent/ExchangerDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
