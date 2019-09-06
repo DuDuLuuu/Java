@@ -19,31 +19,31 @@ import java.util.List;
  */
 public class LeeCode_1161_Java {
     public int maxLevelSum(TreeNode root) {
-        List<Integer> rs = new ArrayList<>();
-        loop(root, rs, 1);
+        List<Integer> list = new ArrayList<>();
+        loop(root, list, 1);
 
-        Integer level = 0;
+        Integer rs = 0;
         Integer max = Integer.MIN_VALUE;
-        for (int i = 0; i < rs.size(); i++) {
-            if (rs.get(i)>max) {
-                level=i;
-                max = rs.get(i);
+        for (int i = 0; i < list.size(); i++) {
+            if (list.get(i)>max) {
+                rs=i;
+                max = list.get(i);
             }
         }
-        return level+1;
+        return rs+1;
     }
 
-    public void loop(TreeNode curr, List<Integer> rs,Integer level) {
+    public void loop(TreeNode curr, List<Integer> list,Integer level) {
         if (curr == null) {
             return ;
         }
-        if (rs.size()<level) {
-            rs.add(curr.val);
+        if (list.size()<level) {
+            list.add(curr.val);
         } else {
-            rs.set(level - 1, rs.get(level - 1) + curr.val);
+            list.set(level - 1, list.get(level - 1) + curr.val);
         }
-        loop(curr.left,rs,level+1);
-        loop(curr.right,rs,level+1);
+        loop(curr.left,list,level+1);
+        loop(curr.right,list,level+1);
     }
 
     public static void main(String[] args) {
