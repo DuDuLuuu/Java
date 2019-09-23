@@ -13,18 +13,18 @@ public class StackOverFlowErrorDemo {
         doSomething();
     }
     //-----------------------------第二种情况：同时存活的线程过多
-    int threadCount = 0;
-    public void doAnotherthing() {
-        while (true) {
-            threadCount++;
-            new Thread(new Runnable() {
-                public void run() {
-                    while (true) {
-                    }
-                }
-            }).start();
-        }
-    }
+//    int threadCount = 0;
+//    public void doAnotherthing() {
+//        while (true) {
+//            threadCount++;
+//            new Thread(new Runnable() {
+//                public void run() {
+//                    while (true) {
+//                    }
+//                }
+//            }).start();
+//        }
+//    }
 
     public static void main(String[] args) {
         StackOverFlowErrorDemo obj = new StackOverFlowErrorDemo();

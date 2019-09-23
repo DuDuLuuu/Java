@@ -20,7 +20,5 @@ public class ConstantOutOfMemoryDemo {
         } catch (Exception e) {
             e.printStackTrace();
         }
-
-
     }
 }

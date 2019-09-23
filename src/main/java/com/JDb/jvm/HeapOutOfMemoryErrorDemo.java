@@ -9,6 +9,8 @@ import java.util.List;
  */
 public class HeapOutOfMemoryErrorDemo {
     //----------------------------------java.lang.OutOfMemoryError: Java heap space
+    //第一种情况：为对象分配的内存过大超出限制
+    //第二种情况：分配的对象过多，导致累计的内存量超出限制
     int size = Integer.MAX_VALUE / 204;
     int[] arr = new int[size];
 
