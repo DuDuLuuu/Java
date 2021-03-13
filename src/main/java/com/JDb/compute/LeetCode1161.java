@@ -17,7 +17,7 @@ import java.util.List;
  链接：https://leetcode-cn.com/problems/maximum-level-sum-of-a-binary-tree
  著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  */
-public class LeeCode_1161_Java {
+public class LeetCode1161 {
     public int maxLevelSum(TreeNode root) {
         List<Integer> list = new ArrayList<>();
         loop(root, list, 1);
@@ -53,7 +53,7 @@ public class LeeCode_1161_Java {
         treeNode.left.right = new TreeNode(-8);
         treeNode.right = new TreeNode(0);
 
-        LeeCode_1161_Java obj = new LeeCode_1161_Java();
+        LeetCode1161 obj = new LeetCode1161();
         int rs = obj.maxLevelSum(treeNode);
         System.out.println(rs);
     }

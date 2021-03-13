@@ -5,14 +5,6 @@ package com.JDb.compute;
  * @Date:2019/9/4
  */
 
-import com.sun.javafx.scene.control.skin.VirtualFlow;
-
-import java.time.temporal.Temporal;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.concurrent.atomic.AtomicInteger;
-
 /**
  * 给定一个字符串 S 和一个字符串 T，计算在 S 的子序列中 T 出现的个数。
  * 一个字符串的一个子序列是指，通过删除一些（也可以不删除）字符且不干扰剩余字符相对位置所组成的新字符串。（例如，"ACE" 是 "ABCDE" 的一个子序列，而 "AEC" 不是）
@@ -51,7 +43,7 @@ import java.util.concurrent.atomic.AtomicInteger;
  * 链接：https://leetcode-cn.com/problems/distinct-subsequences
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  */
-public class LeeCode_115_Java {
+public class LeetCode115 {
     public int numDistinct(String s, String t) {
         int[][] dp = new int[t.length() + 1][s.length() + 1];
         for (int j = 0; j < s.length() + 1; j++) {
@@ -72,7 +64,7 @@ public class LeeCode_115_Java {
 
 
     public static void main(String[] args) {
-        LeeCode_115_Java obj = new LeeCode_115_Java();
+        LeetCode115 obj = new LeetCode115();
         int rs = obj.numDistinct("rabbbit", "rabbit");
         System.out.println(rs);
     }

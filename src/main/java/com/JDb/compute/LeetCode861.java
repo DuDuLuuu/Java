@@ -22,7 +22,7 @@ package com.JDb.compute;
  * 链接：https://leetcode-cn.com/problems/score-after-flipping-matrix
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  */
-public class LeeCode_861_Java {
+public class LeetCode861 {
     public int matrixScore(int[][] A) {
         int y = A.length;
         int x = A[0].length;
@@ -68,7 +68,7 @@ public class LeeCode_861_Java {
     public static void main(String[] args) {
         int[][] arr = new int[][]{{0,0,1,1},{1,0,1,0},{1,1,0,0}};
 //        int[][] arr = new int[][]{{1,1},{1,1},{0,1}};
-        LeeCode_861_Java obj = new LeeCode_861_Java();
+        LeetCode861 obj = new LeetCode861();
         int i = obj.matrixScore(arr);
         System.out.println(i);
     }

@@ -18,7 +18,7 @@ import java.util.Set;
  输入："AAABBC"
  输出：188
  */
-public class LeetCode_1079_Java {
+public class LeetCode1079 {
     public int numTilePossibilities(String tiles) {
         Set rs = new HashSet();
         loop("", tiles, rs);
@@ -33,7 +33,7 @@ public class LeetCode_1079_Java {
     }
 
     public static void main(String[] args) {
-        LeetCode_1079_Java obj = new LeetCode_1079_Java();
+        LeetCode1079 obj = new LeetCode1079();
         int rs = obj.numTilePossibilities("AAB");
         System.out.println(rs);
     }

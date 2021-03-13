@@ -1,9 +1,5 @@
 package com.JDb.compute;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-
 /**
  * @Author:JDb
  * @Date:2019/9/4
@@ -24,7 +20,7 @@ import java.util.List;
  * 链接：https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array-ii
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  */
-public class LeeCode_154_Java {
+public class LeetCode154 {
     public int findMin(int[] nums) {
         int min = 0, max = nums.length - 1;
         while (min < max) {
@@ -44,7 +40,7 @@ public class LeeCode_154_Java {
     public static void main(String[] args) {
 
         int[] arr = new int[]{4, 5, 6, 7, 0, 1, 2};
-        LeeCode_154_Java obj = new LeeCode_154_Java();
+        LeetCode154 obj = new LeetCode154();
         int rs = obj.findMin(arr);
         System.out.println(rs);
     }
