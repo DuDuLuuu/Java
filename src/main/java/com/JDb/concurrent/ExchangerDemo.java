@@ -1,8 +1,5 @@
 package com.JDb.concurrent;
 
-import com.sun.javafx.scene.control.skin.VirtualFlow;
-
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Vector;
 import java.util.concurrent.Exchanger;
@@ -12,6 +9,7 @@ import java.util.concurrent.TimeUnit;
 
 /**
  * Exchanger:泛型定义交换数据类型，线程A调用exchange进入等待状态，线程B调用exchange后唤醒前线程A
+ *
  * @Author:JDb
  * @Date:2019/9/3
  */
