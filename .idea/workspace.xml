@@ -4,23 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40d7af44-3837-4b84-aea9-d046742b8b79" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/JDb/compute/LeetCode102.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/JDb/compute/LeetCode103.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/JDb/compute/LeetCode110.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/JDb/compute/LeetCode144.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/JDb/compute/LeetCode145.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="40d7af44-3837-4b84-aea9-d046742b8b79" name="Default" comment="刷题">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/JDb/compute/LeetCode105.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/JDb/compute/LeeCode_115_Java.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/JDb/compute/LeetCode115.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/JDb/compute/LeeCode_1161_Java.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/JDb/compute/LeetCode1161.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/JDb/compute/LeeCode_154_Java.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/JDb/compute/LeetCode154.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/JDb/compute/LeeCode_232_Java.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/JDb/compute/LeeCode_861_Java.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/JDb/compute/LeetCode861.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/JDb/compute/LeetCode_1079_Java.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/JDb/compute/LeetCode1079.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/JDb/compute/LeetCode_1079_Scala.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/JDb/compute/LeetCode_368_Scala.scala" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -254,6 +240,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.10046729" />
     <property name="project.structure.side.proportion" value="0.36316246" />
@@ -353,17 +340,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -435,7 +411,7 @@
       <workItem from="1568009838999" duration="107000" />
       <workItem from="1568010507383" duration="599000" />
       <workItem from="1568096906709" duration="509000" />
-      <workItem from="1615626975553" duration="9948000" />
+      <workItem from="1615626975553" duration="13316000" />
     </task>
     <task id="LOCAL-00001" summary="并发">
       <created>1567157246904</created>
@@ -472,7 +448,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567762227413</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="刷题">
+      <created>1615652774488</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1615652774489</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -541,9 +524,9 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="并发" />
-    <MESSAGE value="刷题" />
     <MESSAGE value="工具" />
-    <option name="LAST_COMMIT_MESSAGE" value="工具" />
+    <MESSAGE value="刷题" />
+    <option name="LAST_COMMIT_MESSAGE" value="刷题" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
