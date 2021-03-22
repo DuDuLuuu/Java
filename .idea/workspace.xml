@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40d7af44-3837-4b84-aea9-d046742b8b79" name="Default" comment="leetcode">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/JDb/compute/LeetCode124.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/JDb/compute/LeetCode41.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/JDb/compute/LeetCode968.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/JDb/compute/LeetCodeMissingTwo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/JDb/dynamicProxy/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/JDb/dynamicProxy/test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,12 +51,6 @@
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1048" />
   </component>
   <component name="ProjectId" id="1phEQ6T7QHEqizrB1mpXrNcRqS1" />
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -106,27 +103,13 @@
       <recent name="D:\git\ZJdb\Java\src\main\java\com\JDb\Design" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LeetCode1028">
+  <component name="RunManager" selected="Application.test">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
-    </configuration>
-    <configuration name="ConstantOutOfMemoryDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.JDb.jvm.ConstantOutOfMemoryDemo" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.JDb.jvm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration name="LeetCode1028" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.JDb.compute.LeetCode1028" />
@@ -144,6 +127,20 @@
     </configuration>
     <configuration name="LeetCode297" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.JDb.compute.LeetCode297" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.JDb.compute.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeetCode968" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.JDb.compute.LeetCode968" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -177,12 +174,12 @@
       </method>
     </configuration>
     <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.JDb.test" />
+      <option name="MAIN_CLASS_NAME" value="com.JDb.dynamicProxy.test" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.JDb.*" />
+          <option name="PATTERN" value="com.JDb.dynamicProxy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -216,19 +213,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.test" />
-      <item itemvalue="Application.ConstantOutOfMemoryDemo" />
       <item itemvalue="Application.synDemo1" />
       <item itemvalue="Application.LeetCode297" />
       <item itemvalue="Application.LeetCode1028" />
+      <item itemvalue="Application.LeetCode968" />
+      <item itemvalue="Application.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.test" />
+        <item itemvalue="Application.LeetCode968" />
         <item itemvalue="Application.LeetCode1028" />
         <item itemvalue="Application.LeetCode297" />
         <item itemvalue="Application.synDemo1" />
-        <item itemvalue="Application.ConstantOutOfMemoryDemo" />
-        <item itemvalue="Application.test" />
       </list>
     </recent_temporary>
   </component>
@@ -269,7 +266,10 @@
       <workItem from="1568010507383" duration="599000" />
       <workItem from="1568096906709" duration="509000" />
       <workItem from="1615626975553" duration="9948000" />
-      <workItem from="1615776208652" duration="19063000" />
+      <workItem from="1615776208652" duration="24263000" />
+      <workItem from="1616148924819" duration="695000" />
+      <workItem from="1616156152549" duration="43000" />
+      <workItem from="1616407203929" duration="2364000" />
     </task>
     <task id="LOCAL-00001" summary="并发">
       <created>1567157246904</created>
@@ -313,7 +313,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615809250550</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="leetcode">
+      <created>1615875990212</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1615875990212</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -346,46 +353,50 @@
       <screen x="0" y="25" width="2560" height="1354" />
     </state>
     <state x="1572" y="381" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.25.2560.1354@0.25.2560.1354" timestamp="1615780464744" />
-    <state x="1543" y="299" key="CommitChangelistDialog2" timestamp="1615809250203">
+    <state x="1543" y="299" key="CommitChangelistDialog2" timestamp="1616407595093">
       <screen x="0" y="25" width="2560" height="1354" />
     </state>
-    <state x="1543" y="299" key="CommitChangelistDialog2/0.25.2560.1354@0.25.2560.1354" timestamp="1615809250203" />
-    <state width="1238" height="308" key="GridCell.Tab.0.bottom" timestamp="1615799842234">
+    <state x="1543" y="299" key="CommitChangelistDialog2/0.25.2560.1354@0.25.2560.1354" timestamp="1616407595093" />
+    <state width="1238" height="308" key="GridCell.Tab.0.bottom" timestamp="1616407647255">
       <screen x="0" y="25" width="2560" height="1354" />
     </state>
-    <state width="1238" height="308" key="GridCell.Tab.0.bottom/0.25.2560.1354@0.25.2560.1354" timestamp="1615799842234" />
-    <state width="1238" height="308" key="GridCell.Tab.0.center" timestamp="1615799842233">
+    <state width="1238" height="308" key="GridCell.Tab.0.bottom/0.25.2560.1354@0.25.2560.1354" timestamp="1616407647255" />
+    <state width="1238" height="308" key="GridCell.Tab.0.center" timestamp="1616407647253">
       <screen x="0" y="25" width="2560" height="1354" />
     </state>
-    <state width="1238" height="308" key="GridCell.Tab.0.center/0.25.2560.1354@0.25.2560.1354" timestamp="1615799842233" />
-    <state width="1238" height="308" key="GridCell.Tab.0.left" timestamp="1615799842233">
+    <state width="1238" height="308" key="GridCell.Tab.0.center/0.25.2560.1354@0.25.2560.1354" timestamp="1616407647253" />
+    <state width="1238" height="308" key="GridCell.Tab.0.left" timestamp="1616407647251">
       <screen x="0" y="25" width="2560" height="1354" />
     </state>
-    <state width="1238" height="308" key="GridCell.Tab.0.left/0.25.2560.1354@0.25.2560.1354" timestamp="1615799842233" />
-    <state width="1238" height="308" key="GridCell.Tab.0.right" timestamp="1615799842234">
+    <state width="1238" height="308" key="GridCell.Tab.0.left/0.25.2560.1354@0.25.2560.1354" timestamp="1616407647251" />
+    <state width="1238" height="308" key="GridCell.Tab.0.right" timestamp="1616407647254">
       <screen x="0" y="25" width="2560" height="1354" />
     </state>
-    <state width="1238" height="308" key="GridCell.Tab.0.right/0.25.2560.1354@0.25.2560.1354" timestamp="1615799842234" />
-    <state width="1238" height="308" key="GridCell.Tab.1.bottom" timestamp="1615799842236">
+    <state width="1238" height="308" key="GridCell.Tab.0.right/0.25.2560.1354@0.25.2560.1354" timestamp="1616407647254" />
+    <state width="1238" height="308" key="GridCell.Tab.1.bottom" timestamp="1615881827931">
       <screen x="0" y="25" width="2560" height="1354" />
     </state>
-    <state width="1238" height="308" key="GridCell.Tab.1.bottom/0.25.2560.1354@0.25.2560.1354" timestamp="1615799842236" />
-    <state width="1238" height="308" key="GridCell.Tab.1.center" timestamp="1615799842235">
+    <state width="1238" height="308" key="GridCell.Tab.1.bottom/0.25.2560.1354@0.25.2560.1354" timestamp="1615881827931" />
+    <state width="1238" height="308" key="GridCell.Tab.1.center" timestamp="1615881827930">
       <screen x="0" y="25" width="2560" height="1354" />
     </state>
-    <state width="1238" height="308" key="GridCell.Tab.1.center/0.25.2560.1354@0.25.2560.1354" timestamp="1615799842235" />
-    <state width="1238" height="308" key="GridCell.Tab.1.left" timestamp="1615799842234">
+    <state width="1238" height="308" key="GridCell.Tab.1.center/0.25.2560.1354@0.25.2560.1354" timestamp="1615881827930" />
+    <state width="1238" height="308" key="GridCell.Tab.1.left" timestamp="1615881827930">
       <screen x="0" y="25" width="2560" height="1354" />
     </state>
-    <state width="1238" height="308" key="GridCell.Tab.1.left/0.25.2560.1354@0.25.2560.1354" timestamp="1615799842234" />
-    <state width="1238" height="308" key="GridCell.Tab.1.right" timestamp="1615799842235">
+    <state width="1238" height="308" key="GridCell.Tab.1.left/0.25.2560.1354@0.25.2560.1354" timestamp="1615881827930" />
+    <state width="1238" height="308" key="GridCell.Tab.1.right" timestamp="1615881827930">
       <screen x="0" y="25" width="2560" height="1354" />
     </state>
-    <state width="1238" height="308" key="GridCell.Tab.1.right/0.25.2560.1354@0.25.2560.1354" timestamp="1615799842235" />
-    <state x="1520" y="439" key="Vcs.Push.Dialog.v2" timestamp="1615809252863">
+    <state width="1238" height="308" key="GridCell.Tab.1.right/0.25.2560.1354@0.25.2560.1354" timestamp="1615881827930" />
+    <state x="1520" y="439" key="Vcs.Push.Dialog.v2" timestamp="1615875992118">
       <screen x="0" y="25" width="2560" height="1354" />
     </state>
-    <state x="1520" y="439" key="Vcs.Push.Dialog.v2/0.25.2560.1354@0.25.2560.1354" timestamp="1615809252863" />
+    <state x="1520" y="439" key="Vcs.Push.Dialog.v2/0.25.2560.1354@0.25.2560.1354" timestamp="1615875992118" />
+    <state x="1642" y="497" key="git4idea.merge.GitPullDialog" timestamp="1615876000542">
+      <screen x="0" y="25" width="2560" height="1354" />
+    </state>
+    <state x="1642" y="497" key="git4idea.merge.GitPullDialog/0.25.2560.1354@0.25.2560.1354" timestamp="1615876000542" />
     <state x="1585" y="350" width="670" height="676" key="search.everywhere.popup" timestamp="1615779031661">
       <screen x="0" y="25" width="2560" height="1354" />
     </state>
