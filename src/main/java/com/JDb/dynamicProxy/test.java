@@ -10,7 +10,6 @@ public class test {
     public static void main(String[] args) {
         UserService userService = (UserService) new ProxyFactory(new UserServiceImpl()).getProxyInstance();
         userService.find();
-
     }
 }
 
