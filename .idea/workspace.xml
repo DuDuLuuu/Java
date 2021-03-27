@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
+    <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40d7af44-3837-4b84-aea9-d046742b8b79" name="Default" comment="leetcode">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/JDb/compute/LeetCode432.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/JDb/compute/LeetCode1038.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/JDb/compute/LeetCode129.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/JDb/compute/LeetCode1302.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/JDb/compute/LeetCode1305.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/JDb/compute/LeetCode1315.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/JDb/compute/LeetCode1379.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/JDb/compute/LeetCode222.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/JDb/compute/LeetCode515.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/JDb/compute/LeetCode662.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/JDb/compute/LeetCode894.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/JDb/compute/LeetCodeListOfDepth.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,13 +49,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
@@ -69,7 +72,10 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -88,19 +94,19 @@
     <property name="project.structure.proportion" value="0.10046729" />
     <property name="project.structure.side.proportion" value="0.36316246" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.JDb.compute" />
-      <recent name="com.JDb.util" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\git\ZJdb\Java\src\main\java\com\JDb" />
       <recent name="D:\git\ZJdb\Java\src\main\java\com\JDb\Design" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.JDb.compute" />
+      <recent name="com.JDb.util" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.LeetCode432">
+  <component name="RunManager" selected="Application.LeetCode129">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -108,8 +114,8 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
-    <configuration name="LeetCode1028" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.JDb.compute.LeetCode1028" />
+    <configuration name="LeetCode129" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.JDb.compute.LeetCode129" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -150,8 +156,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeetCode968" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.JDb.compute.LeetCode968" />
+    <configuration name="LeetCodeListOfDepth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.JDb.compute.LeetCodeListOfDepth" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -184,6 +190,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -210,19 +227,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.LeetCode1028" />
-      <item itemvalue="Application.LeetCode968" />
       <item itemvalue="Application.test" />
       <item itemvalue="Application.LeetCode239" />
       <item itemvalue="Application.LeetCode432" />
+      <item itemvalue="Application.LeetCodeListOfDepth" />
+      <item itemvalue="Application.LeetCode129" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LeetCode129" />
+        <item itemvalue="Application.LeetCodeListOfDepth" />
         <item itemvalue="Application.LeetCode432" />
         <item itemvalue="Application.LeetCode239" />
         <item itemvalue="Application.test" />
-        <item itemvalue="Application.LeetCode968" />
-        <item itemvalue="Application.LeetCode1028" />
       </list>
     </recent_temporary>
   </component>
@@ -238,7 +255,7 @@
       </list>
     </option>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -267,6 +284,8 @@
       <workItem from="1616148924819" duration="695000" />
       <workItem from="1616156152549" duration="43000" />
       <workItem from="1616407203929" duration="11916000" />
+      <workItem from="1616841323838" duration="41000" />
+      <workItem from="1616842452145" duration="11199000" />
     </task>
     <task id="LOCAL-00001" summary="并发">
       <created>1567157246904</created>
@@ -335,20 +354,19 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
@@ -358,60 +376,6 @@
     <MESSAGE value="工具" />
     <MESSAGE value="leetcode" />
     <option name="LAST_COMMIT_MESSAGE" value="leetcode" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="1572" y="381" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1615780464744">
-      <screen x="0" y="25" width="2560" height="1354" />
-    </state>
-    <state x="1572" y="381" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.25.2560.1354@0.25.2560.1354" timestamp="1615780464744" />
-    <state x="1543" y="299" key="CommitChangelistDialog2" timestamp="1616468945727">
-      <screen x="0" y="25" width="2560" height="1354" />
-    </state>
-    <state x="1543" y="299" key="CommitChangelistDialog2/0.25.2560.1354@0.25.2560.1354" timestamp="1616468945727" />
-    <state width="1638" height="308" key="GridCell.Tab.0.bottom" timestamp="1616472419096">
-      <screen x="0" y="25" width="2560" height="1354" />
-    </state>
-    <state width="1638" height="308" key="GridCell.Tab.0.bottom/0.25.2560.1354@0.25.2560.1354" timestamp="1616472419096" />
-    <state width="1638" height="308" key="GridCell.Tab.0.center" timestamp="1616472419095">
-      <screen x="0" y="25" width="2560" height="1354" />
-    </state>
-    <state width="1638" height="308" key="GridCell.Tab.0.center/0.25.2560.1354@0.25.2560.1354" timestamp="1616472419095" />
-    <state width="1638" height="308" key="GridCell.Tab.0.left" timestamp="1616472419095">
-      <screen x="0" y="25" width="2560" height="1354" />
-    </state>
-    <state width="1638" height="308" key="GridCell.Tab.0.left/0.25.2560.1354@0.25.2560.1354" timestamp="1616472419095" />
-    <state width="1638" height="308" key="GridCell.Tab.0.right" timestamp="1616472419095">
-      <screen x="0" y="25" width="2560" height="1354" />
-    </state>
-    <state width="1638" height="308" key="GridCell.Tab.0.right/0.25.2560.1354@0.25.2560.1354" timestamp="1616472419095" />
-    <state width="1638" height="308" key="GridCell.Tab.1.bottom" timestamp="1616472419097">
-      <screen x="0" y="25" width="2560" height="1354" />
-    </state>
-    <state width="1638" height="308" key="GridCell.Tab.1.bottom/0.25.2560.1354@0.25.2560.1354" timestamp="1616472419097" />
-    <state width="1638" height="308" key="GridCell.Tab.1.center" timestamp="1616472419097">
-      <screen x="0" y="25" width="2560" height="1354" />
-    </state>
-    <state width="1638" height="308" key="GridCell.Tab.1.center/0.25.2560.1354@0.25.2560.1354" timestamp="1616472419097" />
-    <state width="1638" height="308" key="GridCell.Tab.1.left" timestamp="1616472419096">
-      <screen x="0" y="25" width="2560" height="1354" />
-    </state>
-    <state width="1638" height="308" key="GridCell.Tab.1.left/0.25.2560.1354@0.25.2560.1354" timestamp="1616472419096" />
-    <state width="1638" height="308" key="GridCell.Tab.1.right" timestamp="1616472419097">
-      <screen x="0" y="25" width="2560" height="1354" />
-    </state>
-    <state width="1638" height="308" key="GridCell.Tab.1.right/0.25.2560.1354@0.25.2560.1354" timestamp="1616472419097" />
-    <state x="1520" y="439" key="Vcs.Push.Dialog.v2" timestamp="1616468743106">
-      <screen x="0" y="25" width="2560" height="1354" />
-    </state>
-    <state x="1520" y="439" key="Vcs.Push.Dialog.v2/0.25.2560.1354@0.25.2560.1354" timestamp="1616468743106" />
-    <state x="1642" y="497" key="git4idea.merge.GitPullDialog" timestamp="1615876000542">
-      <screen x="0" y="25" width="2560" height="1354" />
-    </state>
-    <state x="1642" y="497" key="git4idea.merge.GitPullDialog/0.25.2560.1354@0.25.2560.1354" timestamp="1615876000542" />
-    <state x="1585" y="350" width="670" height="676" key="search.everywhere.popup" timestamp="1615779031661">
-      <screen x="0" y="25" width="2560" height="1354" />
-    </state>
-    <state x="1585" y="350" width="670" height="676" key="search.everywhere.popup/0.25.2560.1354@0.25.2560.1354" timestamp="1615779031661" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
