@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40d7af44-3837-4b84-aea9-d046742b8b79" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/JDb/compute/LeetCode987.java" afterDir="false" />
+    <list default="true" id="40d7af44-3837-4b84-aea9-d046742b8b79" name="Default" comment="刷题">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/JDb/compute/LeetCode199.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/JDb/compute/LeetCode4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/JDb/compute/LeetCode493.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/JDb/compute/LeetCode814.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/JDb/compute/LeetCode958.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,6 +89,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.10046729" />
     <property name="project.structure.side.proportion" value="0.36316246" />
@@ -101,27 +106,13 @@
       <recent name="com.JDb.util" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LeetCode987">
+  <component name="RunManager" selected="Application.LeetCode493">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
-    </configuration>
-    <configuration name="ConstantOutOfMemoryDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.JDb.jvm.ConstantOutOfMemoryDemo" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.JDb.jvm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration name="LeetCode1028" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.JDb.compute.LeetCode1028" />
@@ -137,8 +128,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeetCode297" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.JDb.compute.LeetCode297" />
+    <configuration name="LeetCode4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.JDb.compute.LeetCode4" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.JDb.compute.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeetCode493" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.JDb.compute.LeetCode493" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.JDb.compute.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeetCode814" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.JDb.compute.LeetCode814" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -171,33 +190,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="synDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.JDb.concurrent.synDemo1" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.JDb.concurrent.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -224,19 +216,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ConstantOutOfMemoryDemo" />
-      <item itemvalue="Application.synDemo1" />
-      <item itemvalue="Application.LeetCode297" />
       <item itemvalue="Application.LeetCode1028" />
       <item itemvalue="Application.LeetCode987" />
+      <item itemvalue="Application.LeetCode814" />
+      <item itemvalue="Application.LeetCode4" />
+      <item itemvalue="Application.LeetCode493" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LeetCode493" />
+        <item itemvalue="Application.LeetCode4" />
+        <item itemvalue="Application.LeetCode814" />
         <item itemvalue="Application.LeetCode987" />
         <item itemvalue="Application.LeetCode1028" />
-        <item itemvalue="Application.LeetCode297" />
-        <item itemvalue="Application.synDemo1" />
-        <item itemvalue="Application.ConstantOutOfMemoryDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -252,7 +244,7 @@
       </list>
     </option>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="false" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -278,6 +270,8 @@
       <workItem from="1568096906709" duration="509000" />
       <workItem from="1615626975553" duration="9948000" />
       <workItem from="1615776208652" duration="16653000" />
+      <workItem from="1616274444857" duration="6792000" />
+      <workItem from="1616328776101" duration="2437000" />
     </task>
     <task id="LOCAL-00001" summary="并发">
       <created>1567157246904</created>
@@ -314,11 +308,18 @@
       <option name="project" value="LOCAL" />
       <updated>1567762227413</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="刷题">
+      <created>1615824579611</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1615824579611</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -336,9 +337,9 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="并发" />
-    <MESSAGE value="刷题" />
     <MESSAGE value="工具" />
-    <option name="LAST_COMMIT_MESSAGE" value="工具" />
+    <MESSAGE value="刷题" />
+    <option name="LAST_COMMIT_MESSAGE" value="刷题" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
