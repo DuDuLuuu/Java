@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40d7af44-3837-4b84-aea9-d046742b8b79" name="Default" comment="leetcode">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/JDb/compute/LeetCode216.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/JDb/compute/LeetCode279.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/JDb/compute/LeetCode39.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/JDb/compute/LeetCode40.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/JDb/compute/LeetCode494.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/JDb/compute/LeetCode837.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/JDb/compute/LeetCode77.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -101,7 +96,7 @@
       <recent name="com.JDb.util" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LeetCode216">
+  <component name="RunManager" selected="Application.LeetCode77">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -111,20 +106,6 @@
     </configuration>
     <configuration name="LeetCode216" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.JDb.compute.LeetCode216" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.JDb.compute.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LeetCode279" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.JDb.compute.LeetCode279" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -167,6 +148,20 @@
     </configuration>
     <configuration name="LeetCode494" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.JDb.compute.LeetCode494" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.JDb.compute.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeetCode77" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.JDb.compute.LeetCode77" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -224,19 +219,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.LeetCode279" />
       <item itemvalue="Application.LeetCode494" />
       <item itemvalue="Application.LeetCode39" />
       <item itemvalue="Application.LeetCode40" />
       <item itemvalue="Application.LeetCode216" />
+      <item itemvalue="Application.LeetCode77" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LeetCode77" />
         <item itemvalue="Application.LeetCode216" />
         <item itemvalue="Application.LeetCode40" />
         <item itemvalue="Application.LeetCode39" />
         <item itemvalue="Application.LeetCode494" />
-        <item itemvalue="Application.LeetCode279" />
       </list>
     </recent_temporary>
   </component>
@@ -283,7 +278,7 @@
       <workItem from="1616407203929" duration="11916000" />
       <workItem from="1616841323838" duration="41000" />
       <workItem from="1616842452145" duration="16708000" />
-      <workItem from="1616929398987" duration="15223000" />
+      <workItem from="1616929398987" duration="15941000" />
     </task>
     <task id="LOCAL-00001" summary="并发">
       <created>1567157246904</created>
@@ -362,7 +357,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616929470190</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="leetcode">
+      <created>1616961317703</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1616961317704</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
