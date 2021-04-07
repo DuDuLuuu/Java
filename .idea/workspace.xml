@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40d7af44-3837-4b84-aea9-d046742b8b79" name="Default" comment="leetcode">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/JDb/compute/LeetCode62.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/JDb/compute/LeetCode63.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/JDb/compute/offer47.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/JDb/compute/LeetCode236.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/JDb/compute/LeetCode42.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,19 +23,6 @@
         <option value="Class" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>动态代理</find>
-      <find>动态</find>
-      <find>newFixedThreadPool</find>
-      <find>Thread</find>
-      <find>getQueuedThreads</find>
-      <find>*</find>
-    </findStrings>
-    <dirStrings>
-      <dir>D:\git\ZJdb\Java\src\main\java\com\JDb\Design</dir>
-    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -66,7 +52,7 @@
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="false" id="Update" />
-    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="2" id="添加" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -89,22 +75,36 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\git\ZJdb\Java\src\main\java\com\JDb" />
-      <recent name="D:\git\ZJdb\Java\src\main\java\com\JDb\Design" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.JDb.compute" />
       <recent name="com.JDb.util" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\git\ZJdb\Java\src\main\java\com\JDb" />
+      <recent name="D:\git\ZJdb\Java\src\main\java\com\JDb\Design" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.LeetCode63">
+  <component name="RunManager" selected="Application.LeetCode42">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
+    </configuration>
+    <configuration name="LeetCode17" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.JDb.compute.LeetCode17" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.JDb.compute.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="LeetCode216" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.JDb.compute.LeetCode216" />
@@ -120,8 +120,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeetCode40" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.JDb.compute.LeetCode40" />
+    <configuration name="LeetCode42" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.JDb.compute.LeetCode42" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -134,22 +134,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeetCode62" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.JDb.compute.LeetCode62" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.JDb.compute.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LeetCode63" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.JDb.compute.LeetCode63" />
+    <configuration name="LeetCode437" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.JDb.compute.LeetCode437" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -182,17 +168,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -219,19 +194,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.LeetCode40" />
       <item itemvalue="Application.LeetCode216" />
       <item itemvalue="Application.LeetCode77" />
-      <item itemvalue="Application.LeetCode62" />
-      <item itemvalue="Application.LeetCode63" />
+      <item itemvalue="Application.LeetCode437" />
+      <item itemvalue="Application.LeetCode17" />
+      <item itemvalue="Application.LeetCode42" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LeetCode63" />
-        <item itemvalue="Application.LeetCode62" />
+        <item itemvalue="Application.LeetCode42" />
+        <item itemvalue="Application.LeetCode17" />
+        <item itemvalue="Application.LeetCode437" />
         <item itemvalue="Application.LeetCode77" />
         <item itemvalue="Application.LeetCode216" />
-        <item itemvalue="Application.LeetCode40" />
       </list>
     </recent_temporary>
   </component>
@@ -247,7 +222,7 @@
       </list>
     </option>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -279,7 +254,11 @@
       <workItem from="1616841323838" duration="41000" />
       <workItem from="1616842452145" duration="16708000" />
       <workItem from="1616929398987" duration="15941000" />
-      <workItem from="1617802777024" duration="4802000" />
+      <workItem from="1617097281335" duration="2969000" />
+      <workItem from="1617173166694" duration="642000" />
+      <workItem from="1617245012444" duration="858000" />
+      <workItem from="1617260787515" duration="7047000" />
+      <workItem from="1617352650999" duration="2990000" />
     </task>
     <task id="LOCAL-00001" summary="并发">
       <created>1567157246904</created>
@@ -365,23 +344,38 @@
       <option name="project" value="LOCAL" />
       <updated>1616961317704</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="leetcode">
+      <created>1617093404289</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1617093404289</updated>
+    </task>
+    <task id="LOCAL-00014" summary="leetcode">
+      <created>1617245444140</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1617245444140</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
@@ -391,6 +385,52 @@
     <MESSAGE value="工具" />
     <MESSAGE value="leetcode" />
     <option name="LAST_COMMIT_MESSAGE" value="leetcode" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1343" y="299" key="CommitChangelistDialog2" timestamp="1617245443822">
+      <screen x="0" y="25" width="2560" height="1354" />
+    </state>
+    <state x="1343" y="299" key="CommitChangelistDialog2/0.25.2560.1354@0.25.2560.1354" timestamp="1617245443822" />
+    <state width="1238" height="366" key="GridCell.Tab.0.bottom" timestamp="1617347398822">
+      <screen x="0" y="25" width="2560" height="1354" />
+    </state>
+    <state width="1238" height="366" key="GridCell.Tab.0.bottom/0.25.2560.1354@0.25.2560.1354" timestamp="1617347398822" />
+    <state width="1238" height="366" key="GridCell.Tab.0.center" timestamp="1617347398821">
+      <screen x="0" y="25" width="2560" height="1354" />
+    </state>
+    <state width="1238" height="366" key="GridCell.Tab.0.center/0.25.2560.1354@0.25.2560.1354" timestamp="1617347398821" />
+    <state width="1238" height="366" key="GridCell.Tab.0.left" timestamp="1617347398821">
+      <screen x="0" y="25" width="2560" height="1354" />
+    </state>
+    <state width="1238" height="366" key="GridCell.Tab.0.left/0.25.2560.1354@0.25.2560.1354" timestamp="1617347398821" />
+    <state width="1238" height="366" key="GridCell.Tab.0.right" timestamp="1617347398821">
+      <screen x="0" y="25" width="2560" height="1354" />
+    </state>
+    <state width="1238" height="366" key="GridCell.Tab.0.right/0.25.2560.1354@0.25.2560.1354" timestamp="1617347398821" />
+    <state width="1238" height="366" key="GridCell.Tab.1.bottom" timestamp="1617347398824">
+      <screen x="0" y="25" width="2560" height="1354" />
+    </state>
+    <state width="1238" height="366" key="GridCell.Tab.1.bottom/0.25.2560.1354@0.25.2560.1354" timestamp="1617347398824" />
+    <state width="1238" height="366" key="GridCell.Tab.1.center" timestamp="1617347398823">
+      <screen x="0" y="25" width="2560" height="1354" />
+    </state>
+    <state width="1238" height="366" key="GridCell.Tab.1.center/0.25.2560.1354@0.25.2560.1354" timestamp="1617347398823" />
+    <state width="1238" height="366" key="GridCell.Tab.1.left" timestamp="1617347398822">
+      <screen x="0" y="25" width="2560" height="1354" />
+    </state>
+    <state width="1238" height="366" key="GridCell.Tab.1.left/0.25.2560.1354@0.25.2560.1354" timestamp="1617347398822" />
+    <state width="1238" height="366" key="GridCell.Tab.1.right" timestamp="1617347398824">
+      <screen x="0" y="25" width="2560" height="1354" />
+    </state>
+    <state width="1238" height="366" key="GridCell.Tab.1.right/0.25.2560.1354@0.25.2560.1354" timestamp="1617347398824" />
+    <state x="1320" y="439" key="Vcs.Push.Dialog.v2" timestamp="1617245446555">
+      <screen x="0" y="25" width="2560" height="1354" />
+    </state>
+    <state x="1320" y="439" key="Vcs.Push.Dialog.v2/0.25.2560.1354@0.25.2560.1354" timestamp="1617245446555" />
+    <state x="1585" y="334" width="670" height="676" key="search.everywhere.popup" timestamp="1617262426612">
+      <screen x="0" y="25" width="2560" height="1354" />
+    </state>
+    <state x="1585" y="334" width="670" height="676" key="search.everywhere.popup/0.25.2560.1354@0.25.2560.1354" timestamp="1617262426612" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
