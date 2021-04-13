@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40d7af44-3837-4b84-aea9-d046742b8b79" name="Default" comment="leetcode">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/JDb/compute/LeetCode1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/JDb/compute/LeetCode1688.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/JDb/compute/LeetCode208.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/JDb/compute/LeetCode401.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/JDb/compute/LeetCode114.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/JDb/compute/LeetCode114.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/JDb/compute/LeetCode1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/JDb/compute/LeetCode1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/JDb/compute/LeetCode1079.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/JDb/compute/LeetCode1079.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +84,7 @@
       <recent name="D:\git\ZJdb\Java\src\main\java\com\JDb\Design" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LeetCode401">
+  <component name="RunManager" selected="Application.LeetCode1079">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -95,36 +92,36 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
+    <configuration name="LeetCode1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.JDb.compute.LeetCode1" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.JDb.compute.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeetCode1079" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.JDb.compute.LeetCode1079" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.JDb.compute.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LeetCode114" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.JDb.compute.LeetCode114" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.JDb.compute.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LeetCode1409" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.JDb.compute.LeetCode1409" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.JDb.compute.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LeetCode1551" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.JDb.compute.LeetCode1551" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -193,19 +190,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.LeetCode1551" />
-      <item itemvalue="Application.LeetCode1409" />
       <item itemvalue="Application.LeetCode114" />
       <item itemvalue="Scala REPL.Scala REPL" />
       <item itemvalue="Application.LeetCode401" />
+      <item itemvalue="Application.LeetCode1" />
+      <item itemvalue="Application.LeetCode1079" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LeetCode1079" />
+        <item itemvalue="Application.LeetCode1" />
         <item itemvalue="Application.LeetCode401" />
         <item itemvalue="Application.LeetCode114" />
         <item itemvalue="Scala REPL.Scala REPL" />
-        <item itemvalue="Application.LeetCode1409" />
-        <item itemvalue="Application.LeetCode1551" />
       </list>
     </recent_temporary>
   </component>
@@ -264,7 +261,7 @@
       <workItem from="1617789980735" duration="2821000" />
       <workItem from="1617877325966" duration="30242000" />
       <workItem from="1618283829112" duration="2932000" />
-      <workItem from="1618302757302" duration="6589000" />
+      <workItem from="1618302757302" duration="10600000" />
     </task>
     <task id="LOCAL-00001" summary="并发">
       <created>1567157246904</created>
@@ -385,7 +382,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618224852705</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="leetcode">
+      <created>1618309580164</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1618309580164</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -422,50 +426,50 @@
       <screen x="0" y="25" width="2560" height="1354" />
     </state>
     <state x="1728" y="536" key="#com.intellij.refactoring.move.moveInstanceMethod.MoveInstanceMethodDialog/0.25.2560.1354@0.25.2560.1354" timestamp="1618224369438" />
-    <state x="1343" y="299" key="CommitChangelistDialog2" timestamp="1618309559629">
+    <state x="1343" y="299" key="CommitChangelistDialog2" timestamp="1618309579820">
       <screen x="0" y="25" width="2560" height="1354" />
     </state>
-    <state x="1343" y="299" key="CommitChangelistDialog2/0.25.2560.1354@0.25.2560.1354" timestamp="1618309559629" />
-    <state width="1238" height="254" key="GridCell.Tab.0.bottom" timestamp="1618309443462">
+    <state x="1343" y="299" key="CommitChangelistDialog2/0.25.2560.1354@0.25.2560.1354" timestamp="1618309579820" />
+    <state width="1238" height="218" key="GridCell.Tab.0.bottom" timestamp="1618312110940">
       <screen x="0" y="25" width="2560" height="1354" />
     </state>
-    <state width="1238" height="254" key="GridCell.Tab.0.bottom/0.25.2560.1354@0.25.2560.1354" timestamp="1618309443462" />
-    <state width="1238" height="254" key="GridCell.Tab.0.center" timestamp="1618309443461">
+    <state width="1238" height="218" key="GridCell.Tab.0.bottom/0.25.2560.1354@0.25.2560.1354" timestamp="1618312110940" />
+    <state width="1238" height="218" key="GridCell.Tab.0.center" timestamp="1618312110940">
       <screen x="0" y="25" width="2560" height="1354" />
     </state>
-    <state width="1238" height="254" key="GridCell.Tab.0.center/0.25.2560.1354@0.25.2560.1354" timestamp="1618309443461" />
-    <state width="1238" height="254" key="GridCell.Tab.0.left" timestamp="1618309443459">
+    <state width="1238" height="218" key="GridCell.Tab.0.center/0.25.2560.1354@0.25.2560.1354" timestamp="1618312110940" />
+    <state width="1238" height="218" key="GridCell.Tab.0.left" timestamp="1618312110939">
       <screen x="0" y="25" width="2560" height="1354" />
     </state>
-    <state width="1238" height="254" key="GridCell.Tab.0.left/0.25.2560.1354@0.25.2560.1354" timestamp="1618309443459" />
-    <state width="1238" height="254" key="GridCell.Tab.0.right" timestamp="1618309443461">
+    <state width="1238" height="218" key="GridCell.Tab.0.left/0.25.2560.1354@0.25.2560.1354" timestamp="1618312110939" />
+    <state width="1238" height="218" key="GridCell.Tab.0.right" timestamp="1618312110940">
       <screen x="0" y="25" width="2560" height="1354" />
     </state>
-    <state width="1238" height="254" key="GridCell.Tab.0.right/0.25.2560.1354@0.25.2560.1354" timestamp="1618309443461" />
-    <state width="1238" height="325" key="GridCell.Tab.1.bottom" timestamp="1618308078948">
+    <state width="1238" height="218" key="GridCell.Tab.0.right/0.25.2560.1354@0.25.2560.1354" timestamp="1618312110940" />
+    <state width="1238" height="218" key="GridCell.Tab.1.bottom" timestamp="1618312110942">
       <screen x="0" y="25" width="2560" height="1354" />
     </state>
-    <state width="1238" height="325" key="GridCell.Tab.1.bottom/0.25.2560.1354@0.25.2560.1354" timestamp="1618308078948" />
-    <state width="1238" height="325" key="GridCell.Tab.1.center" timestamp="1618308078947">
+    <state width="1238" height="218" key="GridCell.Tab.1.bottom/0.25.2560.1354@0.25.2560.1354" timestamp="1618312110942" />
+    <state width="1238" height="218" key="GridCell.Tab.1.center" timestamp="1618312110941">
       <screen x="0" y="25" width="2560" height="1354" />
     </state>
-    <state width="1238" height="325" key="GridCell.Tab.1.center/0.25.2560.1354@0.25.2560.1354" timestamp="1618308078947" />
-    <state width="1238" height="325" key="GridCell.Tab.1.left" timestamp="1618308078947">
+    <state width="1238" height="218" key="GridCell.Tab.1.center/0.25.2560.1354@0.25.2560.1354" timestamp="1618312110941" />
+    <state width="1238" height="218" key="GridCell.Tab.1.left" timestamp="1618312110941">
       <screen x="0" y="25" width="2560" height="1354" />
     </state>
-    <state width="1238" height="325" key="GridCell.Tab.1.left/0.25.2560.1354@0.25.2560.1354" timestamp="1618308078947" />
-    <state width="1238" height="325" key="GridCell.Tab.1.right" timestamp="1618308078948">
+    <state width="1238" height="218" key="GridCell.Tab.1.left/0.25.2560.1354@0.25.2560.1354" timestamp="1618312110941" />
+    <state width="1238" height="218" key="GridCell.Tab.1.right" timestamp="1618312110942">
       <screen x="0" y="25" width="2560" height="1354" />
     </state>
-    <state width="1238" height="325" key="GridCell.Tab.1.right/0.25.2560.1354@0.25.2560.1354" timestamp="1618308078948" />
+    <state width="1238" height="218" key="GridCell.Tab.1.right/0.25.2560.1354@0.25.2560.1354" timestamp="1618312110942" />
     <state x="1429" y="337" key="SettingsEditor" timestamp="1618218563495">
       <screen x="0" y="25" width="2560" height="1354" />
     </state>
     <state x="1429" y="337" key="SettingsEditor/0.25.2560.1354@0.25.2560.1354" timestamp="1618218563495" />
-    <state x="1320" y="439" key="Vcs.Push.Dialog.v2" timestamp="1618224857471">
+    <state x="1320" y="439" key="Vcs.Push.Dialog.v2" timestamp="1618309582521">
       <screen x="0" y="25" width="2560" height="1354" />
     </state>
-    <state x="1320" y="439" key="Vcs.Push.Dialog.v2/0.25.2560.1354@0.25.2560.1354" timestamp="1618224857471" />
+    <state x="1320" y="439" key="Vcs.Push.Dialog.v2/0.25.2560.1354@0.25.2560.1354" timestamp="1618309582521" />
     <state x="1068" y="295" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1618199116629">
       <screen x="0" y="25" width="2560" height="1354" />
     </state>
